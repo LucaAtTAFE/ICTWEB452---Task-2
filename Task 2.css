@@ -6,25 +6,26 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 500px;
-    background-color: aqua;
 }
 
 header {
     flex: 1 1 500px;
     height: fit-content;
-    background-color: brown;
+    border: 3px solid black;
 }
 
 .HTML5-Section {
     flex: 1 1 500px;
     height: fit-content;
-    background-color: aquamarine;
+    border: 3px solid black;
+    border-top: 0px;
 }
 
 .JavaScript-Section {
     flex: 1 1 500px;
     height: fit-content;
-    background-color: rgb(223, 225, 91);
+    border: 3px solid black;
+    border-top: 0px;
 }
 
 h1, header {
