@@ -20,3 +20,9 @@ header {
     text-align: center;
     background-color: brown;
 }
+
+.HTML5-Section {
+    flex: 1 1 500px;
+    height: fit-content;
+    background-color: aquamarine;
+}
