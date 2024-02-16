@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-
 .Main-Container {
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +12,6 @@ body {
 header {
     flex: 1 1 500px;
     height: fit-content;
-    text-align: center;
     background-color: brown;
 }
 
@@ -27,6 +21,22 @@ header {
     background-color: aquamarine;
 }
 
-ul {
+.JavaScript-Section {
+    flex: 1 1 500px;
+    height: fit-content;
+    background-color: rgb(223, 225, 91);
+}
+
+h1, header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+ul, a {
     list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
